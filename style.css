@@ -6,3 +6,51 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.title_container {
+    background: linear-gradient(
+        111.38deg,
+        #d3902c,
+        rgb(12, 198, 182)152.79%,
+        rgba(112, 9, 26, 0)236.36%
+    );
+    padding: 20px 0px;
+    height: 80px;
+
+}
+.title_container h1{
+    font-weight: 900;
+    font-size: 40px;
+    color: rgb(38, 5, 5);
+text-align: center;
+}
+.button_container{
+    height: 15vh;
+    display: grid;
+    place-items: center; 
+}
+.button_container button{
+    font-size: xx-large;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid;
+    padding: 10px 0px ;
+    background-color: rgb(0, 197, 197);
+    cursor: pointer;
+}
+.colors_container{
+    height: 80vh;
+    display: grid;
+
+}
+#color1{
+    background-color: red;
+}
+#color2{
+    background-color: green;
+}
+#color3{
+    background-color:blue;
+}
+#color4{
+    background-color: yellow;
+}
